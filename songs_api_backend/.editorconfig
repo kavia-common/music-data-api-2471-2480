@@ -1,0 +1,23 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+root = true
+
+[*.cs]
+# C# files
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+
+# Prefer explicit types for clarity in APIs
+dotnet_style_qualification_for_field = true:suggestion
+dotnet_style_qualification_for_property = true:suggestion
+dotnet_style_qualification_for_method = true:suggestion
+dotnet_style_qualification_for_event = true:suggestion
+
+# Nullability
+dotnet_diagnostic.CS8618.severity = suggestion
+
+# File-scoped namespaces (consistent with .NET 8 templates)
+csharp_style_namespace_declarations = file_scoped:silent
