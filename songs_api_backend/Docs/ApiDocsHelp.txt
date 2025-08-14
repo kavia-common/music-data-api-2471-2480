@@ -1,0 +1,2 @@
+This project exposes HTTP/JSON endpoints only. No WebSocket endpoints are defined.
+OpenAPI UI is available at /docs and schema at /openapi.json.
